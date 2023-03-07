@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import background from "../../assets/bg.jpg";
@@ -101,9 +100,36 @@ export const CloseIcon = styled.img`
 `;
 
 export const Code = styled.div`
-  width: 100%;  
+	width: 100%;  
   height: calc(100% - 120px);
+  display: flex;
+  overflow-y: auto;
+  font-family: "Fira Code";
 `;
+
+
+export const Lines = styled.div`
+display: none;
+	padding: 20px;
+	text-align: right;
+	border-right: 1px dashed #53565B;;
+`;
+
+export const Line = styled.p`
+	font-size: 18px;
+	line-height: 24px;
+	color: #B8B8B6;
+`;
+
+export const CodeText = styled.div`
+	text-align: left;
+	padding: 20px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #B8B8B6;
+`;
+
+export const CodeTextLine = styled.p``;
 
 export const Bottom = styled.div`
   padding: 4px 2%;
