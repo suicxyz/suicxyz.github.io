@@ -21,6 +21,118 @@ export const Window = styled.div`
   width: 80%;
   height: 90%;
   background-color: #1e1f1a;
-  border-radius: 30px;
-  box-shadow: 2px 2px 50px 10px #000000aa;
+  border-radius: 10px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.5));
+`;
+
+export const Top = styled.div`
+  padding: 8px 2%;
+  width: 100%;
+  background-color: #121311;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  align-items: center;
+`;
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
+`;
+
+export const Button = styled.div<{ color: string }>`
+  background-color: ${props => props.color};
+  border-radius: 10px;
+  width: 18px;
+  height: 18px;
+`;
+
+export const Title = styled.h2`
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+`
+
+export const TitleBarIcon = styled.img`
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+`
+
+export const Files = styled.div`
+  width: 100%;
+  height: 48px;
+  background-color: #5A5B56;
+  display: flex;
+  align-items: flex-end;
+`;
+
+export const MenuButtons = styled.img`
+  width: 72px;
+  height: 48px;
+`;
+
+export const File = styled.div`
+  width: 250px;
+  height: 40px;
+  border-bottom: 40px solid #1E1F1A;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  padding: 0 10px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const TabText = styled.p`
+  position: relative;
+  top: 16px;
+  color: #ffffff;
+`;
+
+export const CloseIcon = styled.img`
+  position: relative;
+  top: 16px;
+  width: 16px;
+  height: 16px;
+`;
+
+export const Code = styled.div`
+  width: 100%;  
+  height: calc(100% - 120px);
+`;
+
+export const Bottom = styled.div`
+  padding: 4px 2%;
+  width: 100%;
+  background-color: #999FAB;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Tool = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+`;
+
+export const ToolIcon = styled.img`
+  width: 24px;
+  height: 24px;
+`;
+
+export const Info = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 64px;
+`;
+
+export const Text = styled.p`
+  font-weight: 500;
 `;
