@@ -220,20 +220,16 @@ Error generating stack: `+o.message+`
 `,Zv=V.div`
   width: 250px;
   height: 40px;
-  border-bottom: 40px solid #1E1F1A;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+  background-color: #1E1F1A;
   padding: 0 10px;
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  border-radius: 8px 8px 0 0;
 `,Jv=V.p`
-  position: relative;
-  top: 16px;
   color: #ffffff;
 `,qv=V.img`
-  position: relative;
-  top: 16px;
   width: 16px;
   height: 16px;
 `,bv=V.div`
@@ -279,7 +275,7 @@ display: none;
   gap: 64px;
 `,gc=V.p`
   font-weight: 500;
-`,sg="/assets/globe-2c959be5.svg",ag="/assets/buttons-165c6edb.svg",cg="/assets/close-a1b414e9.svg",fg="/assets/panel-5c744520.svg",dg=()=>k(Zn,{children:k(Wv,{children:re(Vv,{children:[re(Hv,{children:[re(Qv,{children:[k(Ri,{color:"#E54949"}),k(Ri,{color:"#E2B420"}),k(Ri,{color:"#57B04A"})]}),re(Yv,{style:{display:"flex",alignItems:"center"},children:[k(Gv,{src:sg}),"Website.suicxyz-portfolio"]}),k("div",{style:{width:"78px"}})]}),re(Kv,{children:[k(Xv,{src:ag}),re(Zv,{children:[k(Jv,{children:"README.md"}),k(qv,{src:cg})]})]}),re(bv,{children:[k(eg,{children:[...Array(30)].map((e,t)=>k(tg,{children:t+1},t))}),k(ng,{children:re(rg,{children:["# About me",k("br",{}),k("br",{}),"Sup! I'm suicxyz, or Vinicius, it's on you!",k("br",{}),"Talking about you, how you doing?",k("br",{}),k("br",{}),k("br",{}),"## What I do?",k("br",{}),k("br",{}),"* Back-End Applications;",k("br",{}),re("span",{style:{marginLeft:"20px"},children:["* Node.js, TypeScript, ESLint, Babel and Jest",k("br",{})]}),"* Being something that I like to call minified web dev;",k("br",{}),"* Really good in taking really long naps. (in my city)",k("br",{}),k("br",{}),k("br",{}),"## What I do in my free-time?",k("br",{}),k("br",{}),"* Work on my personal projects, such as this portfolio, made in my free-time between school and work;",k("br",{}),"* Read some articles in the internet about the last news in the Dev world;",k("br",{}),"* Surf on r/Unixporn;",k("br",{}),"* I take reeeeaaally long naps.",k("br",{}),k("br",{}),k("br",{}),"## Why should you hire me?",k("br",{}),k("br",{}),"1. I need money.",k("br",{}),"2. If you hire me, you will receive a gift from Santa Claus!",k("br",{}),"3. Have I already mentioned I need to pay my bills?",k("br",{}),"4. If you are searching for someone to hire, you can stop because you already found someone!",k("br",{}),re("span",{style:{marginLeft:"20px"},children:["(it's me in case you didn't get it)",k("br",{})]}),k("br",{}),"So... please hire me!",k("br",{}),k("br",{})]})})]}),re(lg,{children:[re(og,{children:[k(ig,{src:fg}),"Made with love using React and Typescript (and Vite, of course)."]}),re(ug,{children:[k(gc,{children:"Tab Size: 2"}),k(gc,{children:"Markdown"})]})]})]})})}),pg=V.div`
+`,sg="/assets/globe-2c959be5.svg",ag="/assets/buttons-165c6edb.svg",cg="/assets/close-a1b414e9.svg",fg="/assets/panel-5c744520.svg",dg=()=>k(Zn,{children:k(Wv,{children:re(Vv,{children:[re(Hv,{children:[re(Qv,{children:[k(Ri,{color:"#E54949"}),k(Ri,{color:"#E2B420"}),k(Ri,{color:"#57B04A"})]}),re(Yv,{style:{display:"flex",alignItems:"center"},children:[k(Gv,{src:sg}),"Website.suicxyz-portfolio"]}),k("div",{style:{width:"78px"}})]}),re(Kv,{children:[k(Xv,{src:ag}),re(Zv,{children:[k(Jv,{children:"README.md"}),k(qv,{src:cg})]})]}),re(bv,{children:[k(eg,{children:[...Array(30)].map((e,t)=>k(tg,{children:t+1},t))}),k(ng,{children:re(rg,{children:["# About me",k("br",{}),k("br",{}),"Sup! I'm suicxyz, or Vinicius, it's on you!",k("br",{}),"Talking about you, how you doing?",k("br",{}),k("br",{}),k("br",{}),"## What I do?",k("br",{}),k("br",{}),"* Back-End Applications;",k("br",{}),re("span",{style:{marginLeft:"20px"},children:["* Node.js, TypeScript, ESLint, Babel and Jest",k("br",{})]}),"* Being something that I like to call minified web dev;",k("br",{}),"* Really good in taking really long naps.",k("br",{}),k("br",{}),k("br",{}),"## What I do in my free-time?",k("br",{}),k("br",{}),"* Work on my personal projects, such as this portfolio, made in my free-time between school and work;",k("br",{}),"* Read some articles in the internet about the last news in the Dev world;",k("br",{}),"* Surf on r/Unixporn;",k("br",{}),"* I take reeeeaaally long naps.",k("br",{}),k("br",{}),k("br",{}),"## Why should you hire me?",k("br",{}),k("br",{}),"1. I need money.",k("br",{}),"2. If you hire me, you will receive a gift from Santa Claus!",k("br",{}),"3. Have I already mentioned I need to pay my bills?",k("br",{}),"4. If you are searching for someone to hire, you can stop because you already found someone!",k("br",{}),re("span",{style:{marginLeft:"20px"},children:["(it's me in case you didn't get it)",k("br",{})]}),k("br",{}),"So... please hire me!",k("br",{}),k("br",{})]})})]}),re(lg,{children:[re(og,{children:[k(ig,{src:fg}),"Made with love using React and Typescript (and Vite, of course)."]}),re(ug,{children:[k(gc,{children:"Tab Size: 2"}),k(gc,{children:"Markdown"})]})]})]})})}),pg=V.div`
   width: 100vw;
   height: 100vh;
 

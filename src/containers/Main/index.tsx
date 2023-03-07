@@ -68,7 +68,7 @@ const Main: React.FC = () => {
                 <br/><br/>
                 1. I need money.<br/>
                 2. If you hire me, you will receive a gift from Santa Claus!<br/>
-                3. Have I already mentioned I need to pay my bills?<br/>
+                3. Did I already mention I have to pay my bills?<br/>
                 4. If you are searching for someone to hire, you can stop because you already found someone!<br/>
                 <span style={{ marginLeft: "20px" }}>(it's me in case you didn't get it)<br/></span>
 
