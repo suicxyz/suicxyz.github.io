@@ -77,24 +77,21 @@ export const MenuButtons = styled.img`
 export const File = styled.div`
   width: 250px;
   height: 40px;
-  border-bottom: 40px solid #1E1F1A;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+  background-color: #1E1F1A;
   padding: 0 10px;
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  border-radius: 8px 8px 0 0;
 `;
 
+
 export const TabText = styled.p`
-  position: relative;
-  top: 16px;
   color: #ffffff;
 `;
 
 export const CloseIcon = styled.img`
-  position: relative;
-  top: 16px;
   width: 16px;
   height: 16px;
 `;

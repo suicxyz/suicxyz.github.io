@@ -54,7 +54,7 @@ const Main: React.FC = () => {
                 * Back-End Applications;<br/>
                 <span style={{ marginLeft: "20px" }}>* Node.js, TypeScript, ESLint, Babel and Jest<br/></span>
                 * Being something that I like to call minified web dev;<br/>
-                * Really good in taking really long naps. (in my city)<br/>
+                * Really good in taking really long naps.<br/>
                 <br/><br/>
 
                 ## What I do in my free-time?
