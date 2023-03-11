@@ -7,10 +7,51 @@ import buttons from "../../assets/buttons.svg";
 import close from "../../assets/close.svg";
 import panel from "../../assets/panel.svg";
 
+const Span = ({ children }) => {
+  console.log(children)
+  return (<span>{children}</span>);
+}
+
 const Main: React.FC = () => {
 
   const getLines = () => {
-    console.log(31);
+    var text = `
+# About me
+
+Sup! I'm suicxyz, or Vinicius, it's on you
+Talking about you, how you doing?
+
+## What I do?
+
+* Back-End Applications;
+${<Span>* Node.js, TypeScript, ESLint, Babel and Jest</Span>}
+* Being something that I like to call minified web dev;
+* Take really good in taking really long naps.
+
+## What I do in my free-time?
+
+* Work on my personal projects, such as this portfolio, made in my free-time between school and work;
+* Read some articles in the internet about the last news in the Dev world;
+* Surf on r/Unixporn;
+* I take reeeeaaally long naps.
+
+## Why should you hire me?
+
+1. I need money.
+2. If you hire me, you will receive a gift from Santa Claus!
+3. Did I already mention I have to pay my bills?
+4. If you are searching for someone to hire, you can stop because you already found someone!
+${<Span>(it's me in case you didn't get it)</Span>}
+
+So... please hire me!
+
+`;
+    text = text.split("\n");
+    text.shift();
+    text.pop();
+
+    return text;
+
   };
 
   return (
@@ -44,37 +85,10 @@ const Main: React.FC = () => {
             </S.Lines>
             <S.CodeText>
               <S.CodeTextLine>
-                # About me
-                <br/><br/>
-                Sup! I'm suicxyz, or Vinicius, it's on you!<br/>
-                Talking about you, how you doing?<br/>
-                <br/><br/>
-                ## What I do?
-                <br/><br/>
-                * Back-End Applications;<br/>
-                <span style={{ marginLeft: "20px" }}>* Node.js, TypeScript, ESLint, Babel and Jest<br/></span>
-                * Being something that I like to call minified web dev;<br/>
-                * Really good in taking really long naps.<br/>
-                <br/><br/>
-
-                ## What I do in my free-time?
-                <br/><br/>
-                * Work on my personal projects, such as this portfolio, made in my free-time between school and work;<br/>
-                * Read some articles in the internet about the last news in the Dev world;<br/>
-                * Surf on r/Unixporn;<br/>
-                * I take reeeeaaally long naps.<br/>
-                <br/><br/>
-                ## Why should you hire me?
-                <br/><br/>
-                1. I need money.<br/>
-                2. If you hire me, you will receive a gift from Santa Claus!<br/>
-                3. Did I already mention I have to pay my bills?<br/>
-                4. If you are searching for someone to hire, you can stop because you already found someone!<br/>
-                <span style={{ marginLeft: "20px" }}>(it's me in case you didn't get it)<br/></span>
-
-                <br/>
-                So... please hire me!
-                <br/><br/>
+              {getLines().map((e, i) => {
+                console.log(i);
+                return (<p key={Math.random()}>{(i+1)} - {e}<br/></p>)
+              })}
               </S.CodeTextLine>
             </S.CodeText>
           </S.Code>
